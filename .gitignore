@@ -1,0 +1,20 @@
+# PlatformIO
+.pio/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+*.o
+*.a
+*.d
+
+# Claude Code
+.claude/
