@@ -33,10 +33,7 @@ Platform: ESP32 | License: MIT | Version: 1.0.0
 
 ```cpp
 #include <WiFi.h>
-#include "PtpIpTransport.h"
-#include "PtpIpSession.h"
-#include "Canon5DMkIV.h"   // use the class for your specific model
-#include "PtpIpLog.h"
+#include "PtpIpCamera.h"
 
 PtpIpTransport transport;
 PtpIpSession   session(transport);

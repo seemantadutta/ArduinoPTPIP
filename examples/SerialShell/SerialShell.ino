@@ -26,12 +26,9 @@
 #include <Arduino.h>
 #include <WiFi.h>
 
-#include "PtpIpLog.h"
+#include "PtpIpCamera.h"
 #define LOG_TAG "MAIN"
 
-#include "PtpIpTransport.h"
-#include "PtpIpSession.h"
-#include "Canon5DMkIV.h"
 #include "SerialShell.h"
 
 // ---------------------------------------------------------------------------

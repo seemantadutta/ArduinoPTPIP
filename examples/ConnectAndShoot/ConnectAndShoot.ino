@@ -13,10 +13,7 @@
  */
 
 #include <WiFi.h>
-#include "PtpIpTransport.h"
-#include "PtpIpSession.h"
-#include "Canon5DMkIV.h"
-#include "ICameraControl.h"
+#include "PtpIpCamera.h"
 
 // ---------------------------------------------------------------------------
 // Configuration — fill in your values before uploading
